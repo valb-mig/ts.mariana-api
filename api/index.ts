@@ -1,8 +1,8 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { createClient } from '@supabase/supabase-js'
-import { SupabasePoemRepository }   from '../src/infrastructure/supabase/SupabasePoemRepository.js'
-import { SupabaseMemoryRepository } from '../src/infrastructure/supabase/SupabaseMemoryRepository.js'
-import { GetPoems, GetFeaturedPoem, CreatePoem, GetMemories } from '../src/application/useCases.js'
+import { SupabasePoemRepository }   from '../src/infrastructure/supabase/SupabasePoemRepository'
+import { SupabaseMemoryRepository } from '../src/infrastructure/supabase/SupabaseMemoryRepository'
+import { GetPoems, GetFeaturedPoem, CreatePoem, GetMemories } from '../src/application/useCases'
 
 function getRepos() {
   const url = process.env.SUPABASE_URL!

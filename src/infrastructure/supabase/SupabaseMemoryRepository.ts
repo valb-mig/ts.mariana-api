@@ -1,6 +1,6 @@
 import type { SupabaseClient } from '@supabase/supabase-js'
-import type { Memory } from '../../domain/memory/Memory.js'
-import type { MemoryRepository } from '../../domain/memory/MemoryRepository.js'
+import type { Memory } from '../../domain/memory/Memory'
+import type { MemoryRepository } from '../../domain/memory/MemoryRepository'
 
 export class SupabaseMemoryRepository implements MemoryRepository {
   constructor(private readonly client: SupabaseClient) {}

@@ -1,6 +1,6 @@
 import type { SupabaseClient } from '@supabase/supabase-js'
-import type { Poem, CreatePoemInput } from '../../domain/poem/Poem.js'
-import type { PoemRepository } from '../../domain/poem/PoemRepository.js'
+import type { Poem, CreatePoemInput } from '../../domain/poem/Poem'
+import type { PoemRepository } from '../../domain/poem/PoemRepository'
 
 export class SupabasePoemRepository implements PoemRepository {
   constructor(private readonly client: SupabaseClient) {}
