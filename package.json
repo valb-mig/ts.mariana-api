@@ -6,9 +6,10 @@
     "dev": "tsx watch --env-file=.env src/http/server.ts"
   },
   "dependencies": {
-    "@hono/node-server": "^1.13.7",
     "@supabase/supabase-js": "^2.49.4",
-    "hono": "^4.7.7"
+    "@vercel/node": "^5.1.12",
+    "hono": "^4.7.7",
+    "@hono/node-server": "^1.13.7"
   },
   "devDependencies": {
     "@types/node": "^22.14.1",
