@@ -1,4 +1,4 @@
-import type { Poem, CreatePoemInput } from './Poem'
+import type { Poem, CreatePoemInput } from './Poem.js'
 
 export interface PoemRepository {
   findAll(): Promise<Poem[]>
