@@ -1,6 +1,6 @@
-import type { PoemRepository } from '../../domain/poem/PoemRepository.js'
-import type { MemoryRepository } from '../../domain/memory/MemoryRepository.js'
-import type { CreatePoemInput, PoemType } from '../../domain/poem/Poem.js'
+import type { PoemRepository } from '../domain/poem/PoemRepository.js'
+import type { MemoryRepository } from '../domain/memory/MemoryRepository.js'
+import type { CreatePoemInput, PoemType } from '../domain/poem/Poem.js'
 
 const VALID_TYPES: PoemType[] = ['poem', 'quote', 'letter']
 
